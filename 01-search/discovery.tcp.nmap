@@ -1,0 +1,57 @@
+# Nmap 7.94SVN scan initiated Wed Mar 12 18:58:09 2025 as: nmap -v -oA discovery.tcp -A -Pn -p 0-65535 -T4 51.68.36.97
+Warning: 51.68.36.97 giving up on port because retransmission cap hit (6).
+Nmap scan report for ns3122111.ip-51-68-36.eu (51.68.36.97)
+Host is up (0.031s latency).
+Not shown: 55555 filtered tcp ports (no-response), 9975 closed tcp ports (conn-refused)
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         vsftpd 3.0.5
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:91.173.217.226
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.5 - secure, fast, stable
+|_End of status
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 ftp      ftp          4096 Mar 08 15:19 pub
+22/tcp    open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.12 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 3e:52:58:d8:5e:a0:13:85:f1:e2:dc:86:ac:85:94:25 (RSA)
+|   256 ef:61:7b:d5:61:fd:82:ef:07:32:00:87:0e:41:a8:a0 (ECDSA)
+|_  256 8e:b8:76:33:cd:0a:82:07:fc:31:ed:82:86:87:a7:a7 (ED25519)
+80/tcp    open  http        Apache httpd 2.4.41 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+445/tcp   open  netbios-ssn Samba smbd 4.6.2
+8080/tcp  open  http        nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Welcome to nginx!
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-open-proxy: Proxy might be redirecting requests
+53814/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Blog Entries
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-time: 
+|   date: 2025-03-12T18:51:20
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 12 19:51:42 2025 -- 1 IP address (1 host up) scanned in 3212.23 seconds

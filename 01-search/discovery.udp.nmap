@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Thu Mar 13 08:40:11 2025 as: nmap -v -sU -oA discovery.udp -Pn -p 0-65535 -T4 51.68.36.97
+Nmap scan report for ns3122111.ip-51-68-36.eu (51.68.36.97)
+Host is up.
+All 65536 scanned ports on ns3122111.ip-51-68-36.eu (51.68.36.97) are in ignored states.
+Not shown: 65536 open|filtered udp ports (no-response)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Mar 13 10:29:34 2025 -- 1 IP address (1 host up) scanned in 6563.01 seconds

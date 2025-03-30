@@ -10,6 +10,11 @@ Membres:
 - Raphaël D. (Structure / Niort)
 - Source Anonyme (Anonyme)
 
+
+Playlist musicale pour accompagner la lecture du rapport : https://www.youtube.com/watch?v=L_XJ_s5IsQc&list=PL6br-ciY5WMtWleRhuOhomOhBav0EkCNq
+
+C'est le genre de musique qui m'accompagné durant le CTF.
+
 ## introduction
 
 ce document contient un **write-up** du challenge présenté par le CTF2025 de Catamania. **Il ne s'agit pas d'un rapport de pentesting.** Ce write-up illustre toutefois les techniques classiques de pentesting, notament la collecte d'information, le scanning, l'assesment de vulnérabilité, l'exploitation, le social engineering et ce document, le reporting.
@@ -23,6 +28,8 @@ Il est destiné à donner aux participants du challenge qui n'ont pas pu trouvé
 Le challenge consiste à retrouver 10 flags valant de 10 à 100 points, par pallier de 10, pour un total de 450 points. (10\*10\*9/2 selon Gauss).
 
 Le challenge a été mené au sein de l'équipe en individuel pour laisser à chacun le temps d'essayer et d'explorer ses propres solutions. Les membres les plus en avancés dans le CTF ont ainsi pu donner des indices en plus des indices donnés par l'organisation.
+
+Sur un rythme pépère, j'y ai passé moins de 8h au total (incluant ce write-up).
 
 ## structure de ce write-up
 
